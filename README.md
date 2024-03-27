@@ -10,7 +10,7 @@
 #### jsx 사용법 XML과 Html을 섞어 사용하고 컴포넌트를 html로 사용한다고 보면된다.
 #### js코드를 사용하고 싶을 때엔 {}중괄호를 사용해 사용할 수있다.
 
-#### 리액트 실행법 Terminal npm start 
+#### 리액트 실행법 Terminal => npm start 
 ### 리액트 화면에 lender 하는법 
 #### 프로젝트 파일내에 index.js 에 들어가 생성한 라이브러리를 import 해주고 
 #### React.StrictMode 태그안에 있는 태그를 생성한 라이브러리로 바꿔준다. => 화면이 실시간 변화
