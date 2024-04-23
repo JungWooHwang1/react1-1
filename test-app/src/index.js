@@ -3,15 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
-
 import NotificationList from './ch_06/NotificationList';
+import Counter from './ch_07/Counter';
+import FocusButton from './ch_07/FocusButton';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 setInterval(() => {
   root.render(
     <React.StrictMode>
-      <NotificationList />
+      <App></App>
     </React.StrictMode>
     );
 }, 1000)
