@@ -1,8 +1,8 @@
-import React, { useState }   from "react";
+import React, { useState, useRef }   from "react";
 
 
-export default function Midterm() {
-    const [count, setCount] = useState(0);
+function Midterm() {
+    const [count, setMidterm] = useState(0);
 }
 
 const styles = {
@@ -15,13 +15,13 @@ const styles = {
  function Comment(props){
     return (
         <div>   
-            <h1>당신은 어떤 과일을 좋아하나요?</h1>
+            <h1>당신은 어떤 과일을 좋아하나요? {FruitsButton()}</h1> 
         </div>
         
     )
 }
 
-function fruitsButton(props){
+export default function FruitsButton(props){
     const inputElem = useRef(null)
 
     const onButtonClick = () => {
@@ -36,3 +36,5 @@ function fruitsButton(props){
         </>
     )
 }
+
+
