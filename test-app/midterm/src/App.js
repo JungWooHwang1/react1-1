@@ -2,13 +2,13 @@ App.js
 
 import logo from './logo.svg';
 import './App.css';
-import midterm from '';
+import Midterm from './midterm/midterm';
 
 
 function App() {
   return (
     <div className="App">
-      <midterm></midterm>
+      <Midterm></Midterm>
     
     </div>
   );
