@@ -1,4 +1,14 @@
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yohan050605)](https://github.com/anuraghazra/github-readme-stats)
+
 # 황정우 202030435 🔔
+
+## 5월 1일 강의 내용 (6주차 보강)
+
+### 훅의 두가지 규칙 ✨
+#### 첫번째 무조건 최상위 레벨에서만 호출해야한다. => 쉽게 가장 높은곳에다가 선언해주면 됨
+#### 두번째 규칙 함수형 컴포넌트에서만 훅을 호출해야 한다. or 훅은 함수형 컴포넌트 훅은 직접 마는 커스텀 훅에서만 호출 할 수 있다 => 따라서 일반 자바스크립트 함수에서는 호출하면 안된다.
+
+
 ## 4월 17일 강의 내용 7주차 
 #### keyprops key의 중복을 확인
 
