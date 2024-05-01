@@ -1,6 +1,8 @@
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yohan050605)](https://github.com/anuraghazra/github-readme-stats)
+
 
 # 황정우 202030435 🔔
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yohan050605)](https://github.com/anuraghazra/github-readme-stats)
 
 ## 5월 1일 강의 내용 (6주차 보강)
 
