@@ -3,6 +3,13 @@
 # 황정우 202030435 🔔
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yohan050605)](https://github.com/anuraghazra/github-readme-stats)
+## 5월 8일 강의 내용 (6주차 보강)
+### Arguments에 대해
+
+### 조건부 렌더링
+#### 렌더링해야 될 컴포넌트를 변수처럼 사용하는 방법이 엘리먼트 변수
+
+
 
 ## 5월 1일 강의 내용 (6주차 보강)
 
