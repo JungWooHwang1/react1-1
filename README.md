@@ -5,14 +5,17 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yohan050605)](https://github.com/anuraghazra/github-readme-stats)
 
 ## 5월 22일 강의 내용 
+
 #### import React from "react"; 는 style 을 사용 하지 않으면 딱히 import 해주지 않아도 된다.
    #### props.isLoggedIn, props.onClickLogin, props.onClickLogout 요런식으로 귀찮게 props를 앞에 붙여가면서 사용해주었는데
                                   ↓↓↓
    #### const {isLoggedIn, onClickLogin, onClickLogout} = props 이렇게 선언해주면 
                                   ↓↓↓
    #### isLoggedIn, isLoggedIn, onClickLogout 간단하게 사용해줄 수 있다.
-
- 
+   
+#### map()를 사용할때에는 복수형으로 선언해주고 map()에 파라미터로는 단수형으로 해준다. 
+ex) cosnt numbers = [1,2,3,4,5]
+    const listItems = numbers.map((number) => {})
 
 ## 5월 8일 강의 내용 (6주차 보강)
 ### Arguments에 대해
