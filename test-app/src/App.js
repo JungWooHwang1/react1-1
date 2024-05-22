@@ -1,14 +1,13 @@
 import logo from "./logo.svg";
-import "./App.css";
-import Accommodate from "./ch_07/Accommodate";
-import MyButton from "./ch_08/MyButton";
-import LoginControl from "./ch_09/LoginControl";
-import Mainpage from "./ch_09/MainPage";
+// import "./App.css";
+import NumberList from "./ch_10/NumberList";
+import AttendanceBook from "./ch_10/AttendanceBook";
+import NameForm from "./ch_10/NameForm";
 
 function App() {
   return (
     <div className="App">
-      <Mainpage/>
+      <NameForm/>
     </div>
   );
 }
