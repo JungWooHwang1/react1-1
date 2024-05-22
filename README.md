@@ -3,6 +3,17 @@
 # 황정우 202030435 🔔
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yohan050605)](https://github.com/anuraghazra/github-readme-stats)
+
+## 5월 22일 강의 내용 
+import React from "react"; 는 style 을 사용 하지 않으면 딱히 import 해주지 않아도 된다.
+    props.isLoggedIn, props.onClickLogin, props.onClickLogout 요런식으로 귀찮게 props를 앞에 붙여가면서 사용해주었는데
+                                  ↓↓↓
+    const {isLoggedIn, onClickLogin, onClickLogout} = props 이렇게 선언해주면 
+                                  ↓↓↓
+    isLoggedIn, isLoggedIn, onClickLogout 간단하게 사용해줄 수 있다.
+
+ 
+
 ## 5월 8일 강의 내용 (6주차 보강)
 ### Arguments에 대해
 
@@ -13,7 +24,7 @@
 #### if문을 직접 사용하지 않고, 동일한 효과를 내기 위해 AND 연산자를 사용
 
 
-## 5월 1일 강의 내용 (6주차 보강)
+## 5월 1일 강의 내용 
 
 ### 훅의 두가지 규칙 ✨
 #### 첫번째 무조건 최상위 레벨에서만 호출해야한다. => 쉽게 가장 높은곳에다가 선언해주면 됨
