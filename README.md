@@ -4,8 +4,15 @@
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yohan050605)](https://github.com/anuraghazra/github-readme-stats)
 
+## 6월 05일 강의 내용
+- 합성에 대해 알아보기 합성이란 *여러개의 컴포넌트를 합쳐서 새로운 컴포넌트를 만드는 것
+- 1) Containment
+     ### 특쩡 컴포넌트가 하위 컴포넌트를 포함하는 형태의 합성 방법
+     ### 컴포넌트에 따라 어떤 자식 엘리먼트가 들어올지 미리 예상할 수 없다.
+     ### 범용적인 '박스' 역할을 하는 sidebar혹은 dialog와 같은 컴포넌트에서 특히 자주 볼 수 있습니다.
+     ### 이런 컴포넌트에서는 children prop을 사용ㅇ하여 자식 엘리먼트를 출력에 그대로 전달하는 것이 좋다.
+     ### 이떄 children prop은 컴포넌트의 porps에 기본적으로 들어있는 children속성을 사용한다.
 ## 5월 29일 강의 내용 
-
 
 ## 5월 22일 강의 내용 
 
