@@ -1,15 +1,17 @@
 import logo from "./logo.svg";
 import "./App.css";
-import NumberList from "./ch_10/NumberList";
-import AttendanceBook from "./ch_10/AttendanceBook";
-import NameForm from "./ch_10/NameForm";
-import SignUp from "./ch_11/SignUp";
-import BoilingVerdict from "./ch_12/BoilingVerdict";
+import Calculator from "./ch_12/Calculrator";
+import FancyBorder from "./ch_13/FancyBorder";
+import WelcomeDialog from "./ch_13/WelcomeDialog";
+import SplitPane from "./ch_13/SplitPane";
 
 function App() {
   return (
     <div className="App">
-      <BoilingVerdict celsius = "99"/>
+      <SplitPane
+        left = {<Contacts />}
+        right = {<Chat />}
+      />
     </div>
   );
 }
