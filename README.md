@@ -56,8 +56,8 @@ function ThemeButton() {
     )
 }
 ### Context API란?
-####Context API는 React version 16부터 사용 가능한 리액트의 내장 API이다.
-####앱에서 컴포넌트에게 props를 사용하지 않고 필요한 데이터(state)를 쉽게 공유할 수 있게 해준다. 따라서 앱의     든 컴포넌트에서 사용할 수 있는 데이터(state)를 전달할 때 유용하다.
+#### Context API는 React version 16부터 사용 가능한 리액트의 내장 API이다.
+#### 앱에서 컴포넌트에게 props를 사용하지 않고 필요한 데이터(state)를 쉽게 공유할 수 있게 해준다. 따라서 앱의 든 컴포넌트에서 사용할 수 있는 데이터(state)를 전달할 때 유용하다.
 
 
 ## 6월 05일 강의 내용
