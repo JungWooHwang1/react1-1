@@ -3,6 +3,11 @@
 # 황정우 202030435 🔔
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yohan050605)](https://github.com/anuraghazra/github-readme-stats)
+## 6월 11일 강의 내용 (4월 10일 보강)
+
+- 리액트에서는 상속보다는 합성을 통해 새로운 컴포넌트를 생성한다. => 객체지향언어(클래스형)을 사용하지 않는다.
+- 
+
 
 ## 6월 05일 강의 내용
 - 합성에 대해 알아보기 합성이란 *여러개의 컴포넌트를 합쳐서 새로운 컴포넌트를 만드는 것
