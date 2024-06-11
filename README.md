@@ -3,9 +3,72 @@
 # 황정우 202030435 🔔
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yohan050605)](https://github.com/anuraghazra/github-readme-stats)
+## 6월 11일 강의 내용 (4월 10일 보강)
 
+- 리액트에서는 상속보다는 합성을 통해 새로운 컴포넌트를 생성한다. => 객체지향언어(클래스형)을 사용하지 않는다.
+- 
+### 기존방식
+function App() {
+    return <Toolbar theme = "dark1"></Toolbar>
+}
+
+function Toolbar(props) {
+    return (
+        <div>
+            <ThemeButton theme = {props.theme}></ThemeButton>
+        </div>
+    )
+}
+
+function ThemeButton(props) {
+    return (
+        <Button theme = {props.theme}></Button>
+    )
+}
+### props를 통해 계속 값을 전달 받는 기존방식 => 컴포넌트의 깊이가 깊어지면 똑같은 코드를 계속해서 반복하기 때문에 코드가 복잡해 진다. 이를 해결하기위해 컨텍스트 방법을 활용한다.
+
+### 컨텍스트 방식
+
+const ThemeContext = React.createContext('light')
+
+function App() {
+    return (
+        <ThemeContext.Provider value = "dark">
+            <Toolbar> </Toolbar>
+        </ThemeContext.Provider>
+    )
+}
+
+function Toolbar() {
+    return (
+        <div>
+            <ThemeButton></ThemeButton>
+        </div>
+    )
+}
+
+function ThemeButton() {
+    return (
+        <ThemeContext.Consumer>
+            {value => <Button theme = {value}></Button>}    
+        </ThemeContext.Consumer>
+        
+    )
+}
+### Context API란?
+#### Context API는 React version 16부터 사용 가능한 리액트의 내장 API이다.
+#### 앱에서 컴포넌트에게 props를 사용하지 않고 필요한 데이터(state)를 쉽게 공유할 수 있게 해준다. 따라서 앱의 든 컴포넌트에서 사용할 수 있는 데이터(state)를 전달할 때 유용하다.
+
+
+## 6월 05일 강의 내용
+- 합성에 대해 알아보기 합성이란 *여러개의 컴포넌트를 합쳐서 새로운 컴포넌트를 만드는 것
+- 1) Containment
+     ### 특쩡 컴포넌트가 하위 컴포넌트를 포함하는 형태의 합성 방법
+     ### 컴포넌트에 따라 어떤 자식 엘리먼트가 들어올지 미리 예상할 수 없다.
+     ### 범용적인 '박스' 역할을 하는 sidebar혹은 dialog와 같은 컴포넌트에서 특히 자주 볼 수 있습니다.
+     ### 이런 컴포넌트에서는 children prop을 사용ㅇ하여 자식 엘리먼트를 출력에 그대로 전달하는 것이 좋다.
+     ### 이떄 children prop은 컴포넌트의 porps에 기본적으로 들어있는 children속성을 사용한다.
 ## 5월 29일 강의 내용 
-
 
 ## 5월 22일 강의 내용 
 
