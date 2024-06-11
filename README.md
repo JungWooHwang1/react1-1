@@ -7,6 +7,55 @@
 
 - 리액트에서는 상속보다는 합성을 통해 새로운 컴포넌트를 생성한다. => 객체지향언어(클래스형)을 사용하지 않는다.
 - 
+### 기존방식
+function App() {
+    return <Toolbar theme = "dark1"></Toolbar>
+}
+
+function Toolbar(props) {
+    return (
+        <div>
+            <ThemeButton theme = {props.theme}></ThemeButton>
+        </div>
+    )
+}
+
+function ThemeButton(props) {
+    return (
+        <Button theme = {props.theme}></Button>
+    )
+}
+### props를 통해 계속 값을 전달 받는 기존방식 => 컴포넌트의 깊이가 깊어지면 똑같은 코드를 계속해서 반복하기 때문에 코드가 복잡해 진다. 이를 해결하기위해 컨텍스트 방법을 활용한다.
+
+### 컨텍스트 방식
+
+const ThemeContext = React.createContext('light')
+
+function App() {
+    return (
+        <ThemeContext.Provider value = "dark">
+            <Toolbar> </Toolbar>
+        </ThemeContext.Provider>
+    )
+}
+
+function Toolbar() {
+    return (
+        <div>
+            <ThemeButton></ThemeButton>
+        </div>
+    )
+}
+
+function ThemeButton() {
+    return (
+        <ThemeContext.Consumer>
+            {value => <Button theme = {value}></Button>}    
+        </ThemeContext.Consumer>
+        
+    )
+}
+
 
 
 ## 6월 05일 강의 내용
