@@ -1,7 +1,6 @@
 import React, { useState, useContext } from "react";
 import ThemeContext from "./ThemeContext";
-import MainContext from "./MainContext";
-
+import MainContant from "./MainContant";
 
 export default function DarkOrLight(props){
     const [theme, setTheme] = useState("light")
@@ -17,7 +16,7 @@ export default function DarkOrLight(props){
   
     return (
       <ThemeContext.Provider value={{theme, toggleTheme}}>
-        <MainContext />
+        <MainContant />
       </ThemeContext.Provider>
     );
   }

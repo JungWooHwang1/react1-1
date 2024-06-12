@@ -1,7 +1,7 @@
 import React, { useContext }from "react";
 import ThemeContext from "./ThemeContext";
 
-export default function MainContext(props) {
+export default function MainContant(props) {
     const { theme, toggleTheme } = useContext(ThemeContext);
     return (
         <div style={{

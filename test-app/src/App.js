@@ -6,11 +6,13 @@ import WelcomeDialog from "./ch_13/WelcomeDialog";
 import SplitPane from "./ch_13/SplitPane";
 import ProfileCard from "./ch_13/ProfileCard";
 import DarkOrLight from "./ch_14/DarkOrLight";
+import MainPage from "./ch_14/MainPage";
+
 
 function App() {
   return (
     <div className="App">
-      <DarkOrLight></DarkOrLight>
+      <MainPage></MainPage>
     </div>
   );
 }
