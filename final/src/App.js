@@ -1,11 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import AttendanceBook from './ch_TEST/AttendanceBook';
+import logo from "./logo.svg";
+import "./App.css";
+import Final from "./Final";
 
 function App() {
   return (
     <div className="App">
-      <AttendanceBook></AttendanceBook>
+      <Final></Final>
     </div>
   );
 }
